@@ -1,0 +1,39 @@
+// src/styles/components/Header.scss
+.header {
+    background-color: #252525; /* Match Cylindo header background color */
+    color: white; /* Match Cylindo header text color */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+    .logo {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+  
+    nav {
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 2rem;
+  
+        li {
+          a {
+            font-family: "Poppins", sans-serif;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+  
+            &:hover {
+              color: #f0f0f0;
+            }
+          }
+        }
+      }
+    }
+  }
+  

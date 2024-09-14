@@ -1,0 +1,9 @@
+// src/styles/main.scss
+// Import all component-specific styles here
+@import "./components/Header.scss";
+@import "./components/HeroSection";
+@import "./components/Features";
+@import "./components/Testimonials";
+@import "./components/Configurator";
+@import "./components/Footer";
+@import "./global";
